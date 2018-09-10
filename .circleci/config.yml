@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: CRUD app
-          command: 
+          command: yarn start
       - run:
           name: Print the Current Time
           command: date
